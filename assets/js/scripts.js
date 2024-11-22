@@ -7,4 +7,13 @@
                 abstractContent.style.display = 'block';
             }
         }
+
+        document.querySelectorAll(".abstract-toggle").forEach(button => {
+            button.addEventListener("click", () => {
+                const content = button.nextElementSibling;
+                content.style.display = content.style.display === "block" ? "none" : "block";
+                button.textContent = content.style.display === "block" ? "Hide Abstract" : "Show Abstract";
+            });
+        });
+
     </script>
