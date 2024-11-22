@@ -228,7 +228,7 @@
                     </ul>
                 </div>
                 
-                <button class="abstract-button" onclick="toggleAbstract('abstract1')">Show Abstract</button>
+                <button class="abstract-toggle" onclick="toggleAbstract(this)">Abstract</button>
                 <a href="https://github.com/rzhz/rzz/blob/main/Virtual_brands_24Nov.pdf" class="paper-link">View Paper</a>
                 
                 <div id="abstract1" class="abstract-content">
@@ -309,5 +309,16 @@
         </div>
         <p>© 2024 Ruizhi Zhu. All rights reserved.</p>
     </footer>
+
+    <script>
+        function toggleAbstract(button) {
+            const abstractContent = button.nextElementSibling;
+            if (abstractContent.style.display === 'block' || abstractContent.style.display === '') {
+                abstractContent.style.display = 'none';
+            } else {
+                abstractContent.style.display = 'block';
+            }
+        }
+    </script>
 </body>
 </html>
