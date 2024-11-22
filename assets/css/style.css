@@ -173,20 +173,4 @@
             box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Optional: adds a subtle shadow */
         }
 
-        @media (max-width: 768px) {
-            nav ul li {
-                display: block;
-                margin: 10px 0;
-            }
-
-            .profile-container {
-                width: 150px;
-                height: 150px;
-            }
-
-            .container {
-                padding: 10px;
-            }
-        }
-
     </style>
