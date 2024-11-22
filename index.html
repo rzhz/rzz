@@ -68,11 +68,72 @@
             color: #2c3e50;
         }
         
-        .publication {
+       .publication {
             margin: 20px 0;
-            padding: 15px;
+            padding: 20px;
             background-color: #f8f9fa;
             border-radius: 5px;
+            border: 1px solid #e9ecef;
+        }
+        
+        .publication-status {
+            font-style: italic;
+            color: #666;
+            margin: 5px 0;
+        }
+        
+        .presentation-section {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+        
+        .abstract-button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 5px 15px;
+            border-radius: 3px;
+            cursor: pointer;
+            margin: 5px 0;
+            font-size: 0.9em;
+        }
+        
+        .abstract-button:hover {
+            background-color: #0056b3;
+        }
+        
+        .abstract-content {
+            display: none;
+            margin: 10px 0;
+            padding: 10px;
+            background-color: #fff;
+            border-left: 3px solid #007bff;
+        }
+        
+        .paper-link {
+            color: #007bff;
+            text-decoration: none;
+            margin-right: 15px;
+        }
+        
+        .paper-link:hover {
+            text-decoration: underline;
+        }
+        
+        /* CV Download Button */
+        .cv-download {
+            display: inline-block;
+            background-color: #28a745;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 20px 0;
+            transition: background-color 0.3s;
+        }
+        
+        .cv-download:hover {
+            background-color: #218838;
         }
         
         footer {
@@ -106,7 +167,7 @@
         <ul>
             <li><a href="#home">Home</a></li>
             <li><a href="#research">Research</a></li>
-            %<li><a href="#publications">Publications</a></li>
+            //<li><a href="#publications">Publications</a></li>
             <li><a href="#teaching">Teaching</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
@@ -130,12 +191,30 @@
                 the firm and the platform. </p>
         </section>
 
-        <section id="working papers">
+    <div class="container">
+        <!-- Previous sections remain -->
+        
+        <section id="research">
             <h2>Working Papers</h2>
-            <div class="research">
-                <h3>Virtual Brands and Platform Intermediation </h3>
+            
+            <!-- Example of a publication with all new features -->
+            <div class="publication">
+                <h3>Virtual Brands and Platform Intermediation</h3>
                 <p>with Yakov Bart and Shubhranshu Singh </p>
-                <p>Virtual brands, established by firms beyond their original brands to sell their existing products on online platforms, 
+                <p class="publication-status">Under review </p>
+                
+                <div class="presentation-section">
+                    <h4>Presentations:</h4>
+                    <ul>
+                        Interactive Marketing Research Conference (2024), Boston Area Marketing Scholars Research Conference (2024), Production and Operations Management Conference (2024)
+                    </ul>
+                </div>
+                
+                <button class="abstract-button" onclick="toggleAbstract('abstract1')">Show Abstract</button>
+                <a href="link-to-paper.pdf" class="paper-link">View Paper</a>
+                
+                <div id="abstract1" class="abstract-content">
+                    Virtual brands, established by firms beyond their original brands to sell their existing products on online platforms, 
                     are gaining prominence on various food-delivery platforms. This paper studies a firm's decision to create multiple 
                     brands on an online platform and the platform's decision to recommend them to consumers who make their purchase 
                     decisions after searching recommended brands on the platform. We find a multi-product firm can utilize multiple 
@@ -150,12 +229,30 @@
                     Finally, we show banning identical-menu virtual brands can further benefit both the multi-product firm and consumers
                     when the ban pushes the multi-product firm to create multiple virtual brands specializing in distinct products. However,
                     when the ban leads the multi-product firm to keep only one brand with all its products, the ban can hurt consumers and 
-                    all firm types.</p>
+                    all firm types.
+                </div>
             </div>
+            
+            <!-- Example of another publication -->
             <div class="publication">
                 <h3>Advertising Platforms and Privacy</h3>
                 <p>with Sridhar Moorthy and Xianwen Shi</p>
-                <p>We examine  the implications of privacy-motivated targeting restrictions on consumer welfare, advertisers' customer 
+                <p class="publication-status">revise and resubmit at Marketing Science</p>
+                
+                <div class="presentation-section">
+                    <h4>Presentations:</h4>
+                    <ul>
+                        International Industrial Organization Conference (2024), UT Dallas FORMS Conference (2024), 
+                        Conference on Artificial Intelligence, Machine Learning, and Business Analytics (2022), EARIE Annual Conference (2022), 
+                        ISMS Marketing Science Conference (2022)
+                    </ul>
+                </div>
+                
+                <button class="abstract-button" onclick="toggleAbstract('abstract2')">Show Abstract</button>
+                <a href="link-to-paper-2.pdf" class="paper-link">View Paper</a>
+                
+                <div id="abstract2" class="abstract-content">
+                    We examine  the implications of privacy-motivated targeting restrictions on consumer welfare, advertisers' customer 
                     acquisition costs, and platform revenue. In our model,  competitive product firms reach consumers by placing informative
                     ads on a monopoly advertising platform; consumers are horizontally differentiated in their product preferences and in 
                     their willingness to pay for a non-preferred product, but they don't have any intrinsic privacy preferences, nor an aversion
@@ -168,7 +265,8 @@
                     ads poses to ad volume and will compensate by lowering ad rates, which then get passed on to consumers in the form of lower 
                     product prices. We argue that a platform with market power selling informative ads to competitive product firms will recognize
                     the threat to ad volume posed by cross-selling through mistargeted ads. To compensate, the platform will lower ad rates, 
-                    which will then be passed on to consumers in the form of lower product prices.</p>
+                    which will then be passed on to consumers in the form of lower product prices.
+                </div>
             </div>
         </section>
 
