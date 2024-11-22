@@ -75,12 +75,6 @@
             object-position: center;
         }
 
-        /* Optional: Add hover effect */
-        .profile-container:hover .profile-image {
-            transform: translate(-50%, -50%) scale(1.05);
-            transition: transform 0.3s ease;
-        }
-        
         section {
             margin: 40px 0;
         }
@@ -89,46 +83,56 @@
             color: #2c3e50;
         }
         
-       .publication {
+       /* Publication Styling */
+        .publication {
             margin: 20px 0;
-            padding: 20px;
+            padding: 15px;
             background-color: #f8f9fa;
             border-radius: 5px;
-            border: 1px solid #e9ecef;
+        }
+        
+        .publication h3 {
+            margin-bottom: 5px;
+        }
+        
+        .publication p {
+            margin: 3px 0;
         }
         
         .publication-status {
             font-style: italic;
             color: #666;
-            margin: 5px 0;
+            margin: 3px 0;
         }
         
         .presentation-section {
-            margin: 10px 0;
-            padding-left: 20px;
+            margin: 5px 0;
+            padding-left: 10px;
+        }
+        
+        .presentation-section ul {
+            margin: 3px 0;
+            padding-left: 15px;
         }
         
         .abstract-button {
             background-color: #007bff;
             color: white;
             border: none;
-            padding: 5px 15px;
+            padding: 5px 10px;
             border-radius: 3px;
             cursor: pointer;
             margin: 5px 0;
             font-size: 0.9em;
         }
         
-        .abstract-button:hover {
-            background-color: #0056b3;
-        }
-        
         .abstract-content {
             display: none;
-            margin: 10px 0;
+            margin: 5px 0;
             padding: 10px;
             background-color: #fff;
-            border-left: 3px solid #007bff;
+            border: 1px solid #e9ecef;
+            font-size: 0.95em;
         }
         
         .paper-link {
@@ -281,12 +285,9 @@
     
                     In this context we show that both platform and consumers would be better off without any privacy restrictions if ad rates 
                     were exogenous to the privacy regime. However, in the more realistic scenario of endogenous ad rates, consumers with 
-                    flexible product preferences are likely to be better off under privacy. We argue that this is because a platform with 
-                    market power selling informative ads to competitive product firms will recognize the threat cross-selling by mistargeted 
-                    ads poses to ad volume and will compensate by lowering ad rates, which then get passed on to consumers in the form of lower 
-                    product prices. We argue that a platform with market power selling informative ads to competitive product firms will recognize
-                    the threat to ad volume posed by cross-selling through mistargeted ads. To compensate, the platform will lower ad rates, 
-                    which will then be passed on to consumers in the form of lower product prices.
+                    flexible product preferences are likely to be better off under privacy. We argue that a platform with market power selling 
+                    informative ads to competitive product firms will recognize the threat to ad volume posed by cross-selling through mistargeted 
+                    ads. To compensate, the platform will lower ad rates, which will then be passed on to consumers in the form of lower product prices.
                 </div>
             </div>
         </section>
