@@ -1,12 +1,23 @@
 <script>
-function toggleAbstract(button) {
-    const abstractContent = button.nextElementSibling;
-    if (abstractContent.style.display === 'block' || abstractContent.style.display === '') {
-        abstractContent.style.display = 'none';
-    } else {
-        abstractContent.style.display = 'block';
+document.addEventListener('DOMContentLoaded', () => {
+    function toggleAbstract(button) {
+        const abstractContent = button.nextElementSibling;
+        if (abstractContent.style.display === 'block' || abstractContent.style.display === '') {
+            abstractContent.style.display = 'none';
+        } else {
+            abstractContent.style.display = 'block';
+        }
     }
-}
+
+    // Attach the function to all buttons with the 'abstract-toggle' class
+    const buttons = document.querySelectorAll('.abstract-toggle');
+    buttons.forEach(button => {
+        button.addEventListener('click', function () {
+            toggleAbstract(this);
+        });
+    });
+});
+
 
 document.querySelectorAll(".abstract-toggle").forEach(button => {
     button.addEventListener("click", () => {
