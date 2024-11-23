@@ -89,7 +89,7 @@ h1, h2, h3 {
 
 /* Inline publication status */
 .publication-status {
-    font-size: 0.5em; /* Same size as the authors */
+    font-size: 1em !important; /* Same size as the authors */
     font-style: italic; /* Italicize the text */
     color: inherit; /* Inherit the default text color */
     margin-left: 5px; /* Space between the title and status */
@@ -106,7 +106,6 @@ h1, h2, h3 {
 /* Reduce space between title and author */
 .publication h3 {
     margin-top: 5px; /* Reduce space above the title */
-    font-size: 1.2em; /* Optional: slightly larger than the status */
     margin-bottom: 5px; /* Less space below the title */
 }
 
