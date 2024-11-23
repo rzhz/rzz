@@ -85,11 +85,12 @@ h1, h2, h3 {
     text-align: left;
 }
 
-/* Italic style for paper status */
+/* Inline publication status */
 .publication-status {
     font-style: italic;
-    font-size: 1em; /* Same font size as the rest of the text */
-    margin: 5px 0; /* Adjust spacing around the status */
+    font-size: 1em; /* Match the font size of the title */
+    color: #555; /* Optional: softer color for the status */
+    margin-left: 5px; /* Add a small gap between the title and status */
 }
 
 /* Reduce space between title and author */
