@@ -87,9 +87,22 @@ h1, h2, h3 {
     text-align: left;
 }
 
+/* Title and status container */
+.title-container {
+    display: flex; /* Align items horizontally */
+    align-items: baseline; /* Align the status with the baseline of the title */
+    gap: 10px; /* Add space between the title and status */
+}
+
+/* Title styling */
+.paper-title {
+    font-size: 1.2em; /* Slightly larger for emphasis */
+    margin: 0; /* Remove default margins */
+}
+
 /* Inline publication status */
 .publication-status {
-    font-size: 1em !important; /* Same size as the authors */
+    font-size: 1em ; /* Same size as the authors */
     font-style: italic; /* Italicize the text */
     color: inherit; /* Inherit the default text color */
     margin-left: 5px; /* Space between the title and status */
