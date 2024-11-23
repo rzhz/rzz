@@ -80,7 +80,7 @@ h1, h2, h3 {
 .publication {
     margin: 10px 0;
     padding: 5px;
-    padding-top: 10px; /* Reduce padding inside the box at the top */
+    padding-top: 5px; /* Reduce padding inside the box at the top */
     margin-top: 0; /* Ensure no extra margin is added from the box itself */
     background-color: #f8f9fa;
     border-radius: 5px;
@@ -89,10 +89,10 @@ h1, h2, h3 {
 
 /* Inline publication status */
 .publication-status {
-    font-style: italic;
-    font-size: inherit; /* Match the font size of the title */
-    color: inherit; /* Optional: softer color for the status */
-    margin-left: 5px; /* Add a small gap between the title and status */
+    font-size: 1em; /* Same size as the authors */
+    font-style: italic; /* Italicize the text */
+    color: inherit; /* Inherit the default text color */
+    margin-left: 5px; /* Space between the title and status */
 }
 
 /* Style for authors */
@@ -106,6 +106,7 @@ h1, h2, h3 {
 /* Reduce space between title and author */
 .publication h3 {
     margin-top: 5px; /* Reduce space above the title */
+    font-size: 1.2em; /* Optional: slightly larger than the status */
     margin-bottom: 5px; /* Less space below the title */
 }
 
