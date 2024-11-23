@@ -161,4 +161,21 @@ footer {
     margin: 0 10px;
     text-decoration: none;
 }
+
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    .profile-container {
+        width: 150px;
+        height: 150px;
+    }
+}
+
 </style>
