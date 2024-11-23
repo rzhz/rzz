@@ -78,8 +78,8 @@ h1, h2, h3 {
 
 /* Publication Styling */
 .publication {
-    margin: 20px 0;
-    padding: 15px;
+    margin: 10px 0;
+    padding: 5px;
     background-color: #f8f9fa;
     border-radius: 5px;
     text-align: left;
@@ -89,8 +89,16 @@ h1, h2, h3 {
 .publication-status {
     font-style: italic;
     font-size: 1em; /* Match the font size of the title */
-    color: #555; /* Optional: softer color for the status */
+    color: inherit; /* Optional: softer color for the status */
     margin-left: 5px; /* Add a small gap between the title and status */
+}
+
+/* Style for authors */
+.publication-authors {
+    font-size: 1em; /* Ensure font size is consistent */
+    color: #333; /* Match the default text color */
+    margin-top: 5px; /* Reduce the space between authors and title */
+    margin-bottom: 5px; /* Reduce the space before the presentations section */
 }
 
 /* Reduce space between title and author */
