@@ -1,4 +1,3 @@
-<script>
 function toggleAbstract(button) {
     const abstractContent = button.nextElementSibling; // Find the next sibling (the abstract div)
     if (abstractContent.style.display === 'block') {
@@ -18,4 +17,3 @@ document.querySelectorAll(".abstract-toggle").forEach(button => {
     });
 });
 
-</script>
