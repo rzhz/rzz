@@ -125,9 +125,8 @@ h1, h2, h3 {
 .paper-link {
     color: #007bff;
     text-decoration: none;
-    margin-right: 15px;
 }
-        
+
 .paper-link:hover {
     text-decoration: underline;
 }
