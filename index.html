@@ -23,20 +23,27 @@
     <header id="home">
         <div class="profile-container">
             <img src="assets/img/profile_rz.JPG" alt="Profile Picture" class="profile-image">
+        </div>
+        <div class="container">
             <h1>Ruizhi Zhu</h1>
             <p>Postdoctoral Research Associate • Marketing Department • Northeastern University</p>
+            <p>I'm a Postdoctoral Research Associate at Northeastern University. My research interest lies in information
+                transmission and privacy, platform economy, digital marketing and marketing strategy. My current 
+                research examines how the creation of virtual brands by the firm and the selective recommendation by the 
+                platform interact with each other under different privacy environment and the welfare consequences on consumers, 
+                the firm and the platform. </p>
         </div>
     </header>
 
-    <div class="container">
+    <!--<div class="container">
         <section id="about">
             <h2></h2>
-            <p>I'm a Postdoctoral Research Associate at Northeastern University.  My research interest lies in information
+            <p>I'm a Postdoctoral Research Associate at Northeastern University. My research interest lies in information
                 transmission and privacy, platform economy, digital marketing and competitive marketing strategy. My current 
                 research examines how the creation of virtual brands by the firm and the selective recommendation by the 
                 platform interact with each other under different privacy environment and the welfare consequences on consumers, 
                 the firm and the platform. </p>
-        </section>
+        </section>-->
 
     <div class="container">
         <!-- Previous sections remain -->
@@ -46,15 +53,16 @@
             
             <!-- Example of a publication with all new features -->
             <div class="publication">
-                <h3>
-                    <a href="paper/Virtual_brands_24Nov.pdf" target="_blank" class="paper-link">
-                    Virtual Brands and Platform Intermediation
-                    </a>
-                </h3>
-                <p>with Yakov Bart and Shubhranshu Singh </p>
-                <p class="publication-status">Under review </p>
-                
-                <!-- <div class="presentation-section">
+                <div class="title-container">
+                    <h3 class="paper-title">
+                        <a href="papers/Virtual_brands_24Nov.pdf" target="_blank" class="paper-link">
+                            Virtual Brands and Platform Intermediation
+                        </a>
+                    </h3>
+                    <p class="publication-status"><em>Under review</em></p>
+                </div>
+                <p class="publication-authors">with Yakov Bart and Shubhranshu Singh </p>                
+                <!--<div class="presentation-section">
                     <h4>Presentations:</h4>
                     <ul>
                         Interactive Marketing Research Conference (2024), Boston Area Marketing Scholars Research Conference (2024), Production and Operations Management Conference (2024)
@@ -62,7 +70,7 @@
                 </div>-->
                 
                 <button class="abstract-toggle" onclick="toggleAbstract(this)">Abstract</button>                
-                <div id="abstract1" class="abstract-content">
+                <div id="abstract1" class="abstract-content" style="display: none;">
                     Virtual brands, established by firms beyond their original brands to sell their existing products on online platforms, 
                     are gaining prominence on various food-delivery platforms. This paper studies a firm's decision to create multiple 
                     brands on an online platform and the platform's decision to recommend them to consumers who make their purchase 
@@ -84,15 +92,16 @@
             
             <!-- Example of another publication -->
             <div class="publication">
-                <h3>
-                    <a href="paper/Privacy2024.pdf" target="_blank" class="paper-link">
-                    Advertising Platforms and Privacy
-                    </a>
-                </h3>
-                <p>with Sridhar Moorthy and Xianwen Shi</p>
-                <p class="publication-status">revise and resubmit at Marketing Science</p>
-                
-                <!-- <div class="presentation-section">
+                <div class="title-container">
+                    <h3 class="paper-title">
+                        <a href="papers/Privacy2024.pdf" target="_blank" class="paper-link">
+                            Advertising Platforms and Privacy
+                        </a>
+                    </h3>
+                    <p class="publication-status"><em>revise and resubmit</em> at <strong>Marketing Science</strong></p>
+                </div>
+                <p class="publication-authors">with Sridhar Moorthy and Xianwen Shi</p> 
+                <!--<div class="presentation-section">
                     <h4>Presentations:</h4>
                     <ul>
                         International Industrial Organization Conference (2024), UT Dallas FORMS Conference (2024), 
@@ -101,20 +110,148 @@
                     </ul>
                 </div>-->
                 
-                <button class="abstract-toggle" onclick="toggleAbstract(this)">Abstract</button>
-                <div id="abstract2" class="abstract-content">
+                <button class="abstract-toggle" onclick="toggleAbstract(this)">Abstract</button>              
+                <div id="abstract2" class="abstract-content" style="display: none;">
                     We examine  the implications of privacy-motivated targeting restrictions on consumer welfare, advertisers' customer 
                     acquisition costs, and platform revenue. In our model,  competitive product firms reach consumers by placing informative
                     ads on a monopoly advertising platform; consumers are horizontally differentiated in their product preferences and in 
                     their willingness to pay for a non-preferred product, but they don't have any intrinsic privacy preferences, nor an aversion
-                    to advertising \textit{per se}. 
-    
+                    to advertising <em>per se</em>. <br />
+                    <br />
                     In this context we show that both platform and consumers would be better off without any privacy restrictions if ad rates 
                     were exogenous to the privacy regime. However, in the more realistic scenario of endogenous ad rates, consumers with 
                     flexible product preferences are likely to be better off under privacy. We argue that a platform with market power selling 
                     informative ads to competitive product firms will recognize the threat to ad volume posed by cross-selling through mistargeted 
                     ads. To compensate, the platform will lower ad rates, which will then be passed on to consumers in the form of lower product prices.
                 </div>
+            </div>
+
+            <div class="publication">
+                <div class="title-container">
+                    <h3 class="paper-title">
+                        <!--<a href="papers/Virtual_brands_24Nov.pdf" target="_blank" class="paper-link">-->
+                            Dynamic Personalized Offers while Learning Changing Tastes
+                        <!--</a>-->
+                    </h3>
+                    <!--<p class="publication-status"><em>revise and resubmit</em> at <strong>Marketing Science</strong></p>-->
+                </div>
+                <!--<div class="presentation-section">
+                    <h4>Presentations:</h4>
+                    <ul>
+                        Young Economist Symposium (2022), Stony Brook International Conference on Game Theory (2022), 
+                        Asian Meeting of Econometric Society (2022), Annual Canadian Economics Association Conference (2022)
+                    </ul>
+                </div>-->
+                
+                <button class="abstract-toggle" onclick="toggleAbstract(this)">Abstract</button>              
+                <div id="abstract3" class="abstract-content" style="display: none;">
+                    Firms selling products to consumers realize that it takes time to learn consumers' preferences 
+                    (say, by tracking their online behavior). What makes it even more challenging is that consumers' 
+                    preferences may change over time, depreciating the value of acquired information. How should the 
+                    firm personalize its offers and change them dynamically to learn as well as adapt to changing tastes?
+                    How should consumers behave in light of these dynamic offers? I build a continuous-time bargaining
+                    model with one-sided incomplete information where a buyer's binary type is publicly revealed through
+                    Brownian motion and the binary type changes via a Poisson process. In equilibrium, firms will start
+                    with high prices which will only be accepted by high-type consumers with positive probability and 
+                    as belief drifts below a certain threshold, the firm will offer the lowest price that will be 
+                    accepted by both types immediately. Changing tastes have two effects: a level effect that leaves 
+                    low value consumers less likely to accept a given offer and a slope effect so that the firm screens 
+                    high value consumers faster. Hence type change benefits both types of consumers at a cost to the firm. 
+                    If the firm is restricted to constant prices and can use the acquired information to select consumers, 
+                    it is better off than under dynamic prices. The continuation bargaining process gets resolved slower 
+                    under fixed prices than under flexible prices, which makes consumers more willing to accept a given offer quicker. 
+                </div>
+            </div>
+
+            <div class="publication">
+                <div class="title-container">
+                    <h3 class="paper-title">
+                        <!--<a href="papers/Virtual_brands_24Nov.pdf" target="_blank" class="paper-link">-->
+                            Targeted Media Bias and Voting
+                        <!--</a>-->
+                    </h3>
+                    <!--<p class="publication-status"><em>revise and resubmit</em> at <strong>Marketing Science</strong></p>-->
+                </div>
+                <!--<div class="presentation-section">
+                    <h4>Presentations:</h4>
+                    <ul>
+                        Summer School of Econometric Society (2019), Asian Meeting of Econometric Society (2019), 
+                        Annual Canadian Economics Association Conference (2019), Trans-Atlantic Doctoral Conference (2019), 
+                        International Industrial Organization Conference (2019)
+                    </ul>
+                </div>-->
+                
+                <button class="abstract-toggle" onclick="toggleAbstract(this)">Abstract</button>              
+                <div id="abstract4" class="abstract-content" style="display: none;">
+                    This paper investigates the effect of a tailored news report and its targeted release by an ideologically
+                    biased firm. Targeted media strategies include selective information disclosure and audience targeting,
+                    with audience targeting being a novel method of distorting information to voters. When the media firm
+                    cannot commit to either strategy, targeted media provides are less biased than traditional media. With
+                    full commitment in both strategies, however, targeted media do not necessarily generate more bias
+                    because selective audience targeting may be more effective in channeling the bias. 
+                </div>
+            </div>
+
+            <h2>Work in Progress</h2>
+            
+            <div class="publication">
+                <div class="title-container">
+                    <h3 class="paper-title">
+                        <!--<a href="papers/Virtual_brands_24Nov.pdf" target="_blank" class="paper-link">-->
+                            Brand Image and Marketing Employees Turnover
+                        <!--</a>-->
+                    </h3>
+                    <!--<p class="publication-status"><em>revise and resubmit</em> at <strong>Marketing Science</strong></p>-->
+                </div>
+                <p class="publication-authors">with Yakov Bart, Anatoli Colicev and Samsun Knight</p> 
+                <button class="abstract-toggle" onclick="toggleAbstract(this)">Abstract</button>              
+                <div id="abstract5" class="abstract-content" style="display: none;">
+                    We merge a workforce dataset with the YouGov brand index dataset to study the impact of marketing-related
+                    executive turnover on brand health metrics. Using variations of difference-in-difference models and instrumental 
+                    variable models, we find that marketing-related executive turnover has a large and significantly negative effect
+                    on brand buzz and brand equity. This effect is even stronger for higher-level executive turnover compared to 
+                    mid-level manager turnover. 
+                </div>
+            </div>
+
+            <div class="publication">
+                <div class="title-container">
+                    <h3 class="paper-title">
+                        <!--<a href="papers/Virtual_brands_24Nov.pdf" target="_blank" class="paper-link">-->
+                            Privacy and Product Variety
+                        <!--</a>-->
+                    </h3>
+                    <!--<p class="publication-status"><em>revise and resubmit</em> at <strong>Marketing Science</strong></p>-->
+                </div>
+                <p class="publication-authors">with Sridhar Moorthy and Xianwen Shi</p> 
+                <!--<button class="abstract-toggle" onclick="toggleAbstract(this)">Abstract</button>              
+                <div id="abstract6" class="abstract-content" style="display: none;">
+                    We merge a workforce dataset with the YouGov brand index dataset to study the impact of marketing-related
+                    executive turnover on brand health metrics. Using variations of difference-in-difference models and instrumental 
+                    variable models, we find that marketing-related executive turnover has a large and significantly negative effect
+                    on brand buzz and brand equity. This effect is even stronger for higher-level executive turnover compared to 
+                    mid-level manager turnover. 
+                </div>-->
+            </div>
+
+            <div class="publication">
+                <div class="title-container">
+                    <h3 class="paper-title">
+                        <!--<a href="papers/Virtual_brands_24Nov.pdf" target="_blank" class="paper-link">-->
+                            Ad Targeting and Obtrusiveness: Evidence form Real-Time Bidding
+                        <!--</a>-->
+                    </h3>
+                    <!--<p class="publication-status"><em>revise and resubmit</em> at <strong>Marketing Science</strong></p>-->
+                </div>
+                <p class="publication-authors"> with Jasmine Hao and Yiran Hao</p> 
+                <!--<button class="abstract-toggle" onclick="toggleAbstract(this)">Abstract</button>              
+                <div id="abstract7" class="abstract-content" style="display: none;">
+                    We merge a workforce dataset with the YouGov brand index dataset to study the impact of marketing-related
+                    executive turnover on brand health metrics. Using variations of difference-in-difference models and instrumental 
+                    variable models, we find that marketing-related executive turnover has a large and significantly negative effect
+                    on brand buzz and brand equity. This effect is even stronger for higher-level executive turnover compared to 
+                    mid-level manager turnover. 
+                </div>-->
             </div>
         </section>
 
@@ -143,6 +280,15 @@
         <p>© 2024 Ruizhi Zhu. All rights reserved.</p>
     </footer>
 
-    <script src="assets/js/scripts.js"></script>
+    <script>
+    function toggleAbstract(button) {
+        const abstractContent = button.nextElementSibling;
+        if (abstractContent.style.display === 'block' || abstractContent.style.display === '') {
+            abstractContent.style.display = 'none';
+        } else {
+            abstractContent.style.display = 'block';
+        }
+    }
+    </script>
 </body>
 </html>
