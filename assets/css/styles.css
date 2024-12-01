@@ -6,6 +6,10 @@ body {
     padding: 0;
     color: #333;
 }
+
+section {
+    margin: 10px 0; /* Adjusted margin */
+}
         
 .container {
     max-width: 1000px;
@@ -74,13 +78,56 @@ h1, h2, h3 {
 
 /* Publication Styling */
 .publication {
-    margin: 20px 0;
-    padding: 15px;
+    margin: 10px 0;
+    padding: 5px;
+    padding-top: 5px; /* Reduce padding inside the box at the top */
+    margin-top: 0; /* Ensure no extra margin is added from the box itself */
     background-color: #f8f9fa;
     border-radius: 5px;
     text-align: left;
 }
-        
+
+/* Title and status container */
+.title-container {
+    display: flex; /* Align items horizontally */
+    align-items: baseline; /* Align the status with the baseline of the title */
+    gap: 10px; /* Add space between the title and status */
+}
+
+/* Title styling */
+.paper-title {
+    font-size: 1.2em; /* Slightly larger for emphasis */
+    margin: 0; /* Remove default margins */
+}
+
+/* Inline publication status */
+.publication-status {
+    font-size: 1em ; /* Same size as the authors */
+    font-style: italic; /* Italicize the text */
+    color: inherit; /* Inherit the default text color */
+    margin-left: 5px; /* Space between the title and status */
+}
+
+/* Style for authors */
+.publication-authors {
+    font-size: inherit; /* Ensure font size is consistent */
+    color: #333; /* Match the default text color */
+    margin-top: 5px; /* Reduce the space between authors and title */
+    margin-bottom: 5px; /* Reduce the space before the presentations section */
+}
+
+/* Reduce space between title and author */
+.publication h3 {
+    margin-top: 5px; /* Reduce space above the title */
+    margin-bottom: 5px; /* Less space below the title */
+}
+
+/* Reduce space between author and presentations */
+.publication p {
+    margin: 5px 0; /* Less space between author and other details */
+}
+
+/* Reduce space around presentations section */   
 .presentation-section {
     margin: 5px 0;
 }
@@ -125,9 +172,8 @@ h1, h2, h3 {
 .paper-link {
     color: #007bff;
     text-decoration: none;
-    margin-right: 15px;
 }
-        
+
 .paper-link:hover {
     text-decoration: underline;
 }
