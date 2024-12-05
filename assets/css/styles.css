@@ -49,6 +49,29 @@ nav ul li a {
 nav ul li a:hover {
     color: #ccc;
 }
+
+.navbar {
+    position: sticky;
+    top: 0;
+    background-color: #343a40;
+    padding: 10px 0;
+    z-index: 1000;
+    width: 100%;
+    text-align: center;
+    border-bottom: 2px solid #ccc;
+}
+
+.navbar .nav-link {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1em;
+}
+
+.navbar .nav-link:hover {
+    color: #ccc;
+}
+
         
 /* Profile Picture Styling */
 .profile-container {
