@@ -54,7 +54,7 @@ nav ul li a:hover {
     position: sticky;
     top: 0;
     background-color: #343a40;
-    padding: 5px 0; /* Reduce vertical padding */
+    padding: 5px 0; /* Reduce the padding to decrease height */
     z-index: 1000;
     width: 100%;
     text-align: center;
@@ -64,17 +64,15 @@ nav ul li a:hover {
 .navbar .nav-link {
     color: white;
     text-decoration: none;
-    margin: 0 10px; /* Reduce spacing between links */
-    font-size: 0.9em; /* Optional: Adjust font size if too large */
-    line-height: 1.5; /* Ensure proper spacing inside the buttons */
+    margin: 0 15px;
+    font-size: 1em; /* Keep the font size unchanged */
+    line-height: 1.5; /* Adjust line height for proper vertical alignment */
 }
 
 .navbar .nav-link:hover {
     color: #ccc;
 }
-
-
-        
+    
 /* Profile Picture Styling */
 .profile-container {
     width: 200px;
