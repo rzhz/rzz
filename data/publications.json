@@ -1,0 +1,30 @@
+{
+  "workingPapers": [
+    {
+      "title": "Virtual Brands and Platform Intermediation",
+      "status": "Under review",
+      "authors": "with Yakov Bart and Shubhranshu Singh",
+      "abstract": "Virtual brands, established by firms beyond their original brands to sell their existing products...",
+      "link": "papers/Virtual_brands_24Nov.pdf"
+    },
+    {
+      "title": "Advertising Platforms and Privacy",
+      "status": "Revise and Resubmit at Marketing Science",
+      "authors": "with Sridhar Moorthy and Xianwen Shi",
+      "abstract": "We examine the implications of privacy-motivated targeting restrictions on consumer welfare...",
+      "link": "papers/Privacy2024.pdf"
+    }
+  ],
+  "workInProgress": [
+    {
+      "title": "Brand Image and Marketing Employees Turnover",
+      "authors": "with Yakov Bart, Anatoli Colicev, and Samsun Knight",
+      "abstract": "We merge a workforce dataset with the YouGov brand index dataset to study the impact of marketing-related..."
+    },
+    {
+      "title": "Privacy and Product Variety",
+      "authors": "with Sridhar Moorthy and Xianwen Shi",
+      "abstract": "This project explores the intersection of privacy policies and product variety in competitive markets."
+    }
+  ]
+}
