@@ -26,7 +26,17 @@
       "title": "Advertising Platforms and Privacy",
       "status": "Revise and Resubmit at Marketing Science",
       "authors": "with Sridhar Moorthy and Xianwen Shi",
-      "abstract": "We examine the implications of privacy-motivated targeting restrictions on consumer welfare...",
+      "abstract": "We examine  the implications of privacy-motivated targeting restrictions on consumer welfare, advertisers' customer 
+                    acquisition costs, and platform revenue. In our model,  competitive product firms reach consumers by placing informative
+                    ads on a monopoly advertising platform; consumers are horizontally differentiated in their product preferences and in 
+                    their willingness to pay for a non-preferred product, but they don't have any intrinsic privacy preferences, nor an aversion
+                    to advertising <em>per se</em>. <br />
+                    <br />
+                    In this context we show that both platform and consumers would be better off without any privacy restrictions if ad rates 
+                    were exogenous to the privacy regime. However, in the more realistic scenario of endogenous ad rates, consumers with 
+                    flexible product preferences are likely to be better off under privacy. We argue that a platform with market power selling 
+                    informative ads to competitive product firms will recognize the threat to ad volume posed by cross-selling through mistargeted 
+                    ads. To compensate, the platform will lower ad rates, which will then be passed on to consumers in the form of lower product prices.",
       "link": "papers/Privacy2024.pdf"
     }
   ],
