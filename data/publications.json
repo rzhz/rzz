@@ -4,7 +4,22 @@
       "title": "Virtual Brands and Platform Intermediation",
       "status": "Under review",
       "authors": "with Yakov Bart and Shubhranshu Singh",
-      "abstract": "Virtual brands, established by firms beyond their original brands to sell their existing products...",
+      "abstract": "Virtual brands, established by firms beyond their original brands to sell their existing products on online platforms, 
+                    are gaining prominence on various food-delivery platforms. This paper studies a firm's decision to create multiple 
+                    brands on an online platform and the platform's decision to recommend them to consumers who make their purchase 
+                    decisions after searching recommended brands on the platform. We find a multi-product firm can utilize multiple 
+                    identical-menu brands with different leading products to communicate information about its product variety, 
+                    enticing more consumers to search its brands on the platform. Surprisingly, such information transmission by a 
+                    multi-product firm raises not only consumer surplus but also the profit of the single-product firm that does not 
+                    utilize virtual brands. We find that under privacy environment where the platform does not have access to 
+                    consumer-preference information, it facilitates this information transmission by consistently recommending all brands 
+                    to all consumers. By contrast, under no privacy where the platform knows consumer types, it uses brands with different
+                    leading products to target different consumer segments, which essentially restricts the information-transmission channel.
+                    Interestingly, however, the profits of both the platform and the virtual-brand-offering firm increase as a result.
+                    Finally, we show banning identical-menu virtual brands can further benefit both the multi-product firm and consumers
+                    when the ban pushes the multi-product firm to create multiple virtual brands specializing in distinct products. However,
+                    when the ban leads the multi-product firm to keep only one brand with all its products, the ban can hurt consumers and 
+                    all firm types.",
       "link": "papers/Virtual_brands_24Nov.pdf"
     },
     {
