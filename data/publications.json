@@ -68,7 +68,19 @@
       <!--"link": "papers/Virtual_brands_24Nov.pdf"-->
     }
     {
-    
+      "title": "Targeted Media Bias and Voting",
+      <!--"status": "Under review",-->
+      <!--"authors": "with Yakov Bart and Shubhranshu Singh",-->
+      "conferences": [Summer School of Econometric Society (2019), Asian Meeting of Econometric Society (2019), 
+                        Annual Canadian Economics Association Conference (2019), Trans-Atlantic Doctoral Conference (2019), 
+                        International Industrial Organization Conference (2019)],
+      "abstract": "This paper investigates the effect of a tailored news report and its targeted release by an ideologically
+                    biased firm. Targeted media strategies include selective information disclosure and audience targeting,
+                    with audience targeting being a novel method of distorting information to voters. When the media firm
+                    cannot commit to either strategy, targeted media provides are less biased than traditional media. With
+                    full commitment in both strategies, however, targeted media do not necessarily generate more bias
+                    because selective audience targeting may be more effective in channeling the bias.",
+      <!--"link": "papers/Virtual_brands_24Nov.pdf"-->    
     }
   ],
   "workInProgress": [
