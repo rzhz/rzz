@@ -44,6 +44,32 @@
                     ads. To compensate, the platform will lower ad rates, which will then be passed on to consumers in the form of lower product prices.",
       "link": "papers/Privacy2024.pdf"
     }
+    {
+      "title": "Dynamic Personalized Offers while Learning Changing Tastes",
+      <!--"status": "Under review",-->
+      <!--"authors": "with Yakov Bart and Shubhranshu Singh",-->
+      "conferences": ["Young Economist Symposium (2022)", "Stony Brook International Conference on Game Theory (2022)", 
+                      "Asian Meeting of Econometric Society (2022)", "Annual Canadian Economics Association Conference (2022)"],
+      "abstract": "Firms selling products to consumers realize that it takes time to learn consumers' preferences 
+                    (say, by tracking their online behavior). What makes it even more challenging is that consumers' 
+                    preferences may change over time, depreciating the value of acquired information. How should the 
+                    firm personalize its offers and change them dynamically to learn as well as adapt to changing tastes?
+                    How should consumers behave in light of these dynamic offers? I build a continuous-time bargaining
+                    model with one-sided incomplete information where a buyer's binary type is publicly revealed through
+                    Brownian motion and the binary type changes via a Poisson process. In equilibrium, firms will start
+                    with high prices which will only be accepted by high-type consumers with positive probability and 
+                    as belief drifts below a certain threshold, the firm will offer the lowest price that will be 
+                    accepted by both types immediately. Changing tastes have two effects: a level effect that leaves 
+                    low value consumers less likely to accept a given offer and a slope effect so that the firm screens 
+                    high value consumers faster. Hence type change benefits both types of consumers at a cost to the firm. 
+                    If the firm is restricted to constant prices and can use the acquired information to select consumers, 
+                    it is better off than under dynamic prices. The continuation bargaining process gets resolved slower 
+                    under fixed prices than under flexible prices, which makes consumers more willing to accept a given offer quicker.",
+      <!--"link": "papers/Virtual_brands_24Nov.pdf"-->
+    }
+    {
+    
+    }
   ],
   "workInProgress": [
     {
