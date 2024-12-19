@@ -87,7 +87,11 @@
     {
       "title": "Brand Image and Marketing Employees Turnover",
       "authors": "with Yakov Bart, Anatoli Colicev, and Samsun Knight",
-      "abstract": "We merge a workforce dataset with the YouGov brand index dataset to study the impact of marketing-related..."
+      "abstract": "We merge a workforce dataset with the YouGov brand index dataset to study the impact of marketing-related
+                    executive turnover on brand health metrics. Using variations of difference-in-difference models and instrumental 
+                    variable models, we find that marketing-related executive turnover has a large and significantly negative effect
+                    on brand buzz and brand equity. This effect is even stronger for higher-level executive turnover compared to 
+                    mid-level manager turnover."
     },
     {
       "title": "Privacy and Product Variety",
