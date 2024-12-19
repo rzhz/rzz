@@ -95,8 +95,13 @@
     },
     {
       "title": "Privacy and Product Variety",
-      "authors": "with Sridhar Moorthy and Xianwen Shi",
-      "abstract": "This project explores the intersection of privacy policies and product variety in competitive markets."
+      "authors": "with Sridhar Moorthy and Xianwen Shi"
+      <!--"abstract": "This project explores the intersection of privacy policies and product variety in competitive markets."-->
+    }
+    {
+      "title": "Ad Targeting and Obtrusiveness: Evidence form Real-Time Bidding",
+      "authors": "with Jasmine Hao and Yiran Hao"
+      <!--"abstract": "This project explores the intersection of privacy policies and product variety in competitive markets."-->
     }
   ]
 }
