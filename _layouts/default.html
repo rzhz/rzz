@@ -3,14 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="{{ site.description }}">
+    <meta name="author" content="{{ site.author }}">
+    <meta name="keywords" content="Ruizhi Zhu, research, marketing, privacy, Northeastern University">
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
     {% include navbar.html %}
     {{ content }}
-    <footer>
-        <p>© 2024 Ruizhi Zhu. All rights reserved.</p>
-    </footer>
+    {% include footer.html %}
+    <script>
+    function toggleAbstract(button) {
+        const abstractContent = button.nextElementSibling;
+        if (abstractContent.style.display === 'block') {
+            abstractContent.style.display = 'none';
+        } else {
+            abstractContent.style.display = 'block';
+        }
+    }
+    </script>
 </body>
 </html>
