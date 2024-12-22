@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ruizhi Zhu's academic website showcasing research, teaching, and contact information.">
+    <meta name="author" content="Ruizhi Zhu">
+    <meta name="keywords" content="Ruizhi Zhu, research, marketing, privacy, Northeastern University">
+    <link rel="icon" href="assets/img/icon.png" type="image/png">
+    <title>Ruizhi Zhu </title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="#home" class="nav-link">Home</a>
+            <a href="#research" class="nav-link">Research</a>
+            <!--<a href="#publications" class="nav-link">Publications</a>-->
+            <a href="#teaching" class="nav-link">Teaching</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </div>
+    </nav>
+
+    <header id="home">
+        <div class="profile-container">
+            <img src="assets/img/profile_rz.JPG" alt="Profile Picture" class="profile-image">
+        </div>
+        <div class="container">
+            <h1>Ruizhi Zhu</h1>
+            <p>Postdoctoral Research Associate • Marketing Department • Northeastern University</p>
+            <p>I'm a Postdoctoral Research Associate at Northeastern University. My research interest lies in information
+                transmission and privacy, platform economy, digital marketing and marketing strategy. My current 
+                research examines how the creation of virtual brands by the firm and the selective recommendation by the 
+                platform interact with each other under different privacy environment and the welfare consequences on consumers, 
+                the firm and the platform. </p>
+        </div>
+    </header>
+
+    <!--<div class="container">
+        <section id="about">
+            <h2></h2>
+            <p>I'm a Postdoctoral Research Associate at Northeastern University. My research interest lies in information
+                transmission and privacy, platform economy, digital marketing and competitive marketing strategy. My current 
+                research examines how the creation of virtual brands by the firm and the selective recommendation by the 
+                platform interact with each other under different privacy environment and the welfare consequences on consumers, 
+                the firm and the platform. </p>
+        </section>-->
+
+    <div class="container">
+        <!-- Previous sections remain -->
+        
+        <section id="research">
+            <h2>Working Papers</h2>
+            <div id="working-papers"></div>
+            <h2>Work in Progress</h2>
+            <div id="work-in-progress"></div>
+        </section>
+
+        <section id="teaching">
+            <h2>Teaching</h2>
+            <ul id="teaching"></ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <div id="contact"></div>
+        </section>
+    </div>
+
+    <footer>
+        <div class="social-links">
+            <a href="https://github.com/rzhz">GitHub</a>
+            <a href="https://scholar.google.com/citations?user=07D63aYAAAAJ&hl=en">Google Scholar</a>
+            <a href="https://www.linkedin.com/in/ruizhi-zhu">LinkedIn</a>
+        </div>
+        <p>© 2024 Ruizhi Zhu. All rights reserved.</p>
+    </footer>
+
+    <script>
+    function toggleAbstract(button) {
+        const abstractContent = button.nextElementSibling;
+        if (abstractContent.style.display === 'block' || abstractContent.style.display === '') {
+            abstractContent.style.display = 'none';
+        } else {
+            abstractContent.style.display = 'block';
+        }
+    }
+    </script>
+    <script src="scripts/loadContent.js" defer></script>
+</body>
+</html>
