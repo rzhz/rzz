@@ -186,7 +186,7 @@ h1, h2, h3 {
 }
 
 .abstract-content {
-    line-height: 1.5; /* Sets one-half spacing */
+    line-height: 1.25; /* Sets one-half spacing */
     font-size: 0.9em ;
     display: none;
     margin: 10px 0;
