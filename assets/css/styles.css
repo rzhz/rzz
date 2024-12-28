@@ -185,8 +185,8 @@ h1, h2, h3 {
     display: block;
 }
 
-.abstract-content 
-    line-height: 2; /* Sets one-half spacing */
+.abstract-content {
+    line-height: 1.5; /* Sets one-half spacing */
     display: none;
     margin: 10px 0;
     padding: 10px;
