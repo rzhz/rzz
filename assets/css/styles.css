@@ -24,6 +24,12 @@ header {
     text-align: center;
     border-bottom: 1px solid #e9ecef;
 }
+
+header#home .container p:last-of-type {
+    text-align: left;
+    margin-top: 10px; /* Optional: Add spacing above */
+    padding-left: 10px; /* Optional: Indent the text slightly */
+}
         
 nav {
     background-color: #343a40;
