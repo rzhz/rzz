@@ -212,12 +212,12 @@ h1, h2, h3 {
 }
         
 .paper-link {
-    color: grey;
+    color: #808080;
     text-decoration: none;
 }
 
 .paper-link:hover {
-    color: darkgrey;
+    color: #A9A9A9;
     text-decoration: underline;
 }
 
