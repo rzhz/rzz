@@ -1,4 +1,14 @@
 <style>
+a {
+    color: #808080;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #A9A9A9;
+    text-decoration: underline;
+}
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6; /* Maintain readability */
