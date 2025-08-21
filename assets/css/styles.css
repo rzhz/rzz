@@ -1,290 +1,140 @@
-<style>
+/* HERO / HOME SECTION */
 #home {
-  /* your background image */
   background: url('assets/img/Ruizhi Zhu3.jpg') no-repeat center center;
   background-size: cover;
-
-  /* optional: make it fill the viewport */
   min-height: 100vh;
   display: flex;
   align-items: center;
   position: relative;
-  color: white; /* if you need light text over a dark image */
+  color: white;
 }
 
-/* ensure your inner content sits on top of the background */
+/* Ensure content sits on top of any overlay */
 #home .profile-container,
 #home .container {
   position: relative;
   z-index: 1;
 }
 
-/* optional: dark overlay for better text contrast */
+/* If you WANT an overlay, keep this. If you don't, delete this block. */
 #home::before {
   content: "";
   position: absolute;
-  top: 0; left: 0; right: 0; bottom: 0;
-  background: rgba(0, 0, 0, 0.4);
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4); /* <-- remove or reduce (e.g. 0.15) if it's too dark */
   z-index: 0;
 }
 
-
+/* GLOBAL BODY */
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 1.6; /* Maintain readability */
-    color: #333; /* Text color */
-    font-size: 18px; /* Increase the font size */
-    margin: 0;
-    padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
 }
 
-section {
-    margin: 10px 0; /* Adjusted margin */
-}
-        
-.container {
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 20px;
-}
-        
-header {
-    background-color: #f8f9fa;
-    padding: 40px 0;
-    text-align: center;
-    border-bottom: 1px solid #e9ecef;
+/* Layout */
+section { margin: 10px 0; }
+.container { max-width: 1000px; margin: 0 auto; padding: 20px; }
+
+/* HEADERS
+   Apply the grey background to headers EXCEPT the home hero */
+header:not(#home) {
+  background-color: #f8f9fa;
+  padding: 40px 0;
+  text-align: center;
+  border-bottom: 1px solid #e9ecef;
 }
 
+/* Optional: make #home header transparent and remove border */
+header#home {
+  background: transparent;
+  border-bottom: none;
+}
+
+/* Keep your special last-paragraph tweak within the hero only */
 header#home .container p:last-of-type {
-    text-align: left;
-    margin-top: 10px; /* Optional: Add spacing above */
-    padding-left: 10px; /* Optional: Indent the text slightly */
+  text-align: left;
+  margin-top: 10px;
+  padding-left: 10px;
 }
-        
-nav {
-    background-color: #343a40;
-    padding: 10px 0;
-}
-        
-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    text-align: center;
-}
-        
-nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-        
-nav ul li a {
-    color: white;
-    text-decoration: none;
-}
-        
-nav ul li a:hover {
-    color: #ccc;
-}
+
+/* NAVBAR */
+nav { background-color: #343a40; padding: 10px 0; }
+nav ul { list-style: none; padding: 0; margin: 0; text-align: center; }
+nav ul li { display: inline; margin: 0 15px; }
+nav ul li a { color: white; text-decoration: none; }
+nav ul li a:hover { color: #ccc; }
 
 .navbar {
-    position: sticky;
-    top: 0;
-    background-color: #343a40;
-    padding: 5px 0; /* Reduce the padding to decrease height */
-    z-index: 1000;
-    width: 100%;
-    text-align: center;
-    border-bottom: 2px solid #ccc;
+  position: sticky;
+  top: 0;
+  background-color: #343a40;
+  padding: 5px 0;
+  z-index: 1000;
+  width: 100%;
+  text-align: center;
+  border-bottom: 2px solid #ccc;
 }
+.navbar .nav-link { color: white; text-decoration: none; margin: 0 15px; font-size: 1em; line-height: 1.5; }
+.navbar .nav-link:hover { color: #ccc; }
 
-.navbar .nav-link {
-    color: white;
-    text-decoration: none;
-    margin: 0 15px;
-    font-size: 1em; /* Keep the font size unchanged */
-    line-height: 1.5; /* Adjust line height for proper vertical alignment */
-}
-
-.navbar .nav-link:hover {
-    color: #ccc;
-}
-    
-/* Profile Picture Styling */
+/* PROFILE IMAGE */
 .profile-container {
-    width: 200px;
-    height: 200px;
-    margin: 20px auto;
-    border-radius: 50%;
-    overflow: hidden;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    border: 3px solid #fff;
+  width: 200px; height: 200px; margin: 20px auto; border-radius: 50%; overflow: hidden;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1); border: 3px solid #fff;
 }
+.profile-image { width: 100%; height: 100%; object-fit: cover; object-position: center; }
 
-.profile-image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-}
+/* TYPOGRAPHY */
+section { margin: 40px 0; }
+h1, h2, h3 { color: #2c3e50; }
 
-section {
-    margin: 40px 0;
-}
-        
-h1, h2, h3 {
-    color: #2c3e50;
-}
-
-/* Publication Styling */
+/* PUBLICATIONS */
 .publication {
-    margin: 10px 0;
-    padding: 5px;
-    padding-top: 5px; /* Reduce padding inside the box at the top */
-    margin-top: 0; /* Ensure no extra margin is added from the box itself */
-    background-color: #f8f9fa;
-    border-radius: 5px;
-    text-align: left;
+  margin: 10px 0; padding: 5px; padding-top: 5px; margin-top: 0;
+  background-color: #f8f9fa; border-radius: 5px; text-align: left;
 }
+.title-container { display: flex; align-items: baseline; gap: 10px; }
+.paper-title { font-size: 1.2em; margin: 0; }
+.publication-status { font-size: 1em; font-style: italic; color: inherit; margin-left: 5px; }
+.publication-authors { font-size: inherit; color: #333; margin: 5px 0; }
+.publication h3 { margin: 5px 0; }
+.publication p { margin: 5px 0; }
 
-/* Title and status container */
-.title-container {
-    display: flex; /* Align items horizontally */
-    align-items: baseline; /* Align the status with the baseline of the title */
-    gap: 10px; /* Add space between the title and status */
-}
+.presentation-section { margin: 5px 0; }
+.presentation-section h4 { display: inline; margin-right: 5px; font-size: 1em; }
+.presentation-section ul { display: inline; margin: 0; padding: 0; list-style: none; }
+.presentation-section ul li { display: inline; margin-right: 10px; }
 
-/* Title styling */
-.paper-title {
-    font-size: 1.2em; /* Slightly larger for emphasis */
-    margin: 0; /* Remove default margins */
-}
-
-/* Inline publication status */
-.publication-status {
-    font-size: 1em ; /* Same size as the authors */
-    font-style: italic; /* Italicize the text */
-    color: inherit; /* Inherit the default text color */
-    margin-left: 5px; /* Space between the title and status */
-}
-
-/* Style for authors */
-.publication-authors {
-    font-size: inherit; /* Ensure font size is consistent */
-    color: #333; /* Match the default text color */
-    margin-top: 5px; /* Reduce the space between authors and title */
-    margin-bottom: 5px; /* Reduce the space before the presentations section */
-}
-
-/* Reduce space between title and author */
-.publication h3 {
-    margin-top: 5px; /* Reduce space above the title */
-    margin-bottom: 5px; /* Less space below the title */
-}
-
-/* Reduce space between author and presentations */
-.publication p {
-    margin: 5px 0; /* Less space between author and other details */
-}
-
-/* Reduce space around presentations section */   
-.presentation-section {
-    margin: 5px 0;
-}
-
-.presentation-section h4 {
-    display: inline;
-    margin-right: 5px;
-    font-size: 1em;
-}
-        
-.presentation-section ul {
-    display: inline;
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-}
-
-.presentation-section ul li {
-    display: inline;
-    margin-right: 10px;
-}
-        
 .abstract-toggle {
-    background: none;
-    border: none;
-    color: #808080;
-    cursor: pointer;
-    padding: 0;
-    text-decoration: underline;
-    margin: 10px 0;
-    display: block;
+  background: none; border: none; color: #808080; cursor: pointer; padding: 0;
+  text-decoration: underline; margin: 10px 0; display: block;
 }
-
 .abstract-content {
-    line-height: 1.5; /* Sets one-half spacing */
-    font-size: 0.95em ;
-    display: none;
-    margin: 10px 0;
-    padding: 10px;
-    background-color: #f8f9fa;
-    border-radius: 5px;
-}
-        
-.paper-link {
-    color: #808080;
-    text-decoration: none;
+  line-height: 1.5; font-size: 0.95em; display: none; margin: 10px 0; padding: 10px;
+  background-color: #f8f9fa; border-radius: 5px;
 }
 
-.paper-link:hover {
-    color: #A9A9A9;
-    text-decoration: underline;
-}
+.paper-link { color: #808080; text-decoration: none; }
+.paper-link:hover { color: #A9A9A9; text-decoration: underline; }
 
-/* CV Download Button */
+/* CV BUTTON */
 .cv-download {
-    display: inline-block;
-    background-color: #28a745;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    margin: 20px 0;
-    transition: background-color 0.3s;
+  display: inline-block; background-color: #28a745; color: white; padding: 10px 20px;
+  text-decoration: none; border-radius: 5px; margin: 20px 0; transition: background-color 0.3s;
 }
+.cv-download:hover { background-color: #218838; }
 
-.cv-download:hover {
-    background-color: #218838;
-}
+/* FOOTER */
+footer { background-color: #343a40; color: white; text-align: center; padding: 20px 0; margin-top: 50px; }
+.social-links a { color: white; margin: 0 10px; text-decoration: none; }
 
-footer {
-    background-color: #343a40;
-    color: white;
-    text-align: center;
-    padding: 20px 0;
-    margin-top: 50px;
-}
-        
-.social-links a {
-    color: white;
-    margin: 0 10px;
-    text-decoration: none;
-}
-
+/* RESPONSIVE */
 @media (max-width: 768px) {
-    nav ul li {
-        display: block;
-        margin: 10px 0;
-    }
-
-    .container {
-        padding: 10px;
-    }
-
-    .profile-container {
-        width: 150px;
-        height: 150px;
-    }
+  nav ul li { display: block; margin: 10px 0; }
+  .container { padding: 10px; }
+  .profile-container { width: 150px; height: 150px; }
 }
-
-</style>
