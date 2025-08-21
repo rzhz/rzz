@@ -1,28 +1,38 @@
 /* HERO / HOME SECTION */
 #home {
-  background: url('assets/img/Ruizhi Zhu3.jpg') no-repeat center center;
-  background-size: cover;
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  position: relative;
-  color: white;
+  background-color: #FFE5BF; /* Warm beige background */
+  min-height: auto;          /* Let content define the height */
+  padding: 40px 0;           /* Reduce vertical padding */
+  text-align: center;        /* Center all text & images */
+  color: #333;               /* Dark text looks better on beige */
 }
 
-/* Ensure content sits on top of any overlay */
-#home .profile-container,
-#home .container {
-  position: relative;
-  z-index: 1;
-}
-
-/* If you WANT an overlay, keep this. If you don't, delete this block. */
+/* Remove the dark overlay completely */
 #home::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.4); /* <-- remove or reduce (e.g. 0.15) if it's too dark */
-  z-index: 0;
+  display: none;
+}
+
+/* Keep profile image centered */
+#home .profile-container {
+  margin: 0 auto 20px auto; /* Center horizontally, add space below */
+}
+
+/* Ensure headings and intro text are centered */
+#home h1, 
+#home h2, 
+#home h3, 
+#home p {
+  color: #333;
+  text-align: center;
+  margin: 5px 0;
+}
+
+/* HEADER for other pages (not the hero) */
+header:not(#home) {
+  background-color: #f8f9fa;
+  padding: 40px 0;
+  text-align: center;
+  border-bottom: 1px solid #e9ecef;
 }
 
 /* GLOBAL BODY */
