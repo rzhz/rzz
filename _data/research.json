@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Publications",
+    "id": "publications",
+    "papers": [
+      {
+        "title": "Advertising Platforms and Privacy",
+        "url": "https://doi.org/10.1287/mksc.2024.0879",
+        "link_label": "Journal article",
+        "authors": "with Sridhar Moorthy and Xianwen Shi",
+        "venue": "Marketing Science",
+        "year": "2025",
+        "abstract": "We examine the implications of privacy-motivated targeting restrictions on consumer welfare, advertisers' customer acquisition costs, and platform revenue. In our model, competitive product firms reach consumers by placing informative ads on a monopoly advertising platform; consumers are horizontally differentiated in their product preferences and in their willingness to pay for a non-preferred product, but they don't have any intrinsic privacy preferences, nor an aversion to advertising <em>per se</em>. <br /> <br /> In this context we show that both platform and consumers would be better off without any privacy restrictions if ad rates were exogenous to the privacy regime. However, in the more realistic scenario of endogenous ad rates, consumers with flexible product preferences are likely to be better off under privacy. We argue that a platform with market power selling informative ads to competitive product firms will recognize the threat to ad volume posed by cross-selling through mistargeted ads. To compensate, the platform will lower ad rates, which will then be passed on to consumers in the form of lower product prices."
+      }
+    ]
+  },
+  {
+    "name": "Working Papers",
+    "id": "working-papers",
+    "papers": [
+      {
+        "title": "The Effect of AI on Marketing Employment: Evidence from 110m+ Online Employment Records",
+        "authors": "with Samsun Knight, Anatoli Colicev and Yakov Bart",
+        "url": "https://ssrn.com/abstract=6653422",
+        "link_label": "SSRN",
+        "abstract": "Marketing is widely considered one of the job functions most exposed to generative AI, but large-scale evidence on marketing-specific employment effects remains limited. We study how the public release of ChatGPT in November 2022 affected marketing employment using a panel of over 110 million employment records from Revelio Labs covering 164,780 firms. Comparing marketing to non-marketing employees within the same firm in a difference-in-differences design, we find that the post-ChatGPT change in average marketing headcount is 0.92% lower than the corresponding change for non-marketing headcount. We demonstrate that this relative decline is strongest among both junior and senior employees, while mid-level marketing employees are least affected relative to same-seniority non-marketing peers; and that within fields, the contraction is concentrated in non-digital marketing and customer-service marketing employees in particular, while sales employment has enjoyed a modest relative increase, consistent with task-specific adjustment rather than broad commercial retrenchment. Lastly, we show in triple-differences analyses that the relative decline in marketing headcount is significantly larger in firms and industries with higher pre-period AI exposure."
+      },
+      {
+        "title": "Privacy, Product Variety and Market Structure",
+        "authors": "with Sridhar Moorthy and Xianwen Shi",
+        "abstract": "Privacy restrictions can change not only how firms design products but also which consumer segments they serve. We study a market in which heterogeneous firms choose entry, a mass or niche segment, and targeted design. A segment’s demand environment has two dimensions: demand scale and audience purity, the share of demand from its intended consumers. Scale shifts every firm’s profit, whereas purity raises the return to design and is therefore more valuable to productive firms. When both segments are active, the mass market supplies scale and the niche supplies purity; lower-productivity entrants serve the mass market and higher-productivity entrants serve the niche. Stronger privacy reduces effective design capacity, erodes the niche’s design advantage, and eventually eliminates specialized supply. Before exit, privacy also changes relative consumer welfare and thus feeds back into the two segments’ demand, so niche variety and total variety need not move together. While both segments are active, uniform productivity implies that weaker privacy raises niche-consumer welfare and total market coverage, although mass-consumer welfare and product variety can be nonmonotone. Voluntary consent and imperfect targeting preserve strong-privacy niche exit, while heterogeneous match values can reverse the benchmark welfare ordering."
+      },
+      {
+        "title": "AI Deployment as Incentive Design: Commitment and Human Effort in AI-Assisted Decisions",
+        "authors": "with Di Feng and Quan Zheng",
+        "abstract": "How should a principal deploy and use AI to assist the assessment by a human agent? We study a principal-agent model of AI-assisted decision making in which the principal decides whether to deploy an AI system and commits to a rule mapping an AI recommendation and an agent report into a binary decision. The agent shares the principal’s objective but privately observes his expertise and must exert costly effort to generate an independent assessment. We show that, first, conditional on AI deployment, the unique optimal rule is full deference to the agent when AI and agent disagree. Full deference maximizes the incentive of an agent who can outperform the AI to produce independent judgment, while an agent whose expertise falls below AI accuracy optimally remain inactive. Second, the value of human assessment is justified only by the mass of highly matched experts, while improving the average quality of agents may add little value. Third, the principal may optimally withhold an informative AI system. A more accurate AI directly improves the baseline recommendation but also reduces the expertise gap that motivates human effort. The results are robust to random effort costs, continuous expertise distributions, and an AI-augmented assessment technology in which agents use effort to correct AI mistakes. The analysis highlights that AI-assisted decision systems should be designed not only to aggregate information, but also to preserve incentives to create it."
+      },
+      {
+        "title": "How Important Are Marketing Employees? Marketing Employee Turnover and Brand Performance",
+        "url": "https://ssrn.com/abstract=5187853",
+        "link_label": "SSRN",
+        "authors": "with Yakov Bart, Anatoli Colicev and Samsun Knight",
+        "abstract": "We examine how marketing employee turnover affects brand performance by linking workforce mobility records to brand metrics for 477 firms (2012 to 2020). Using a robust two-way fixed effects approach, we show that marketing turnover is followed by significant declines in both brand buzz and brand equity: the departure of a senior marketing executive reduces brand buzz and brand equity by 3.2% and 1.6% of the median within-firm standard deviation, with progressively smaller effects for mid-level managers and junior employees. However, we also find that these effects are highly heterogeneous, with turnover in brand-building roles more damaging than turnover in frontline commercial execution roles (sales and customer service); turnover in digital roles more damaging than turnover in non-digital roles; and turnover by employees with better outside options (reemployed in similar or higher-seniority roles within six months) associated with much larger impacts. Results are robust to extensive sets of controls and are supported by null placebo tests. A peer-of-peer instrumental-variables strategy yields strong first stages and similar significant second-stage estimates, consistent with a causal interpretation. Overall, the findings provide scalable evidence that marketing human capital is a firm-specific intangible asset with measurable marketplace consequences."
+      },
+      {
+        "title": "Virtual Brands and Platform Intermediation",
+        "url": "https://ssrn.com/abstract=5028345",
+        "link_label": "SSRN",
+        "authors": "with Yakov Bart and Shubhranshu Singh",
+        "abstract": "Virtual brands, established by firms beyond their original brands to sell their existing products on online platforms, are gaining prominence on various food-delivery platforms. This paper studies a firm's decision to create multiple brands on an online platform and the platform's decision to recommend them to consumers who make their purchase decisions after searching recommended brands on the platform. We find a multi-product firm can utilize multiple identical-menu brands with different leading products to communicate information about its product variety, enticing more consumers to search its brands on the platform. Surprisingly, such information transmission by a multi-product firm raises not only consumer surplus but also the profit of the single-product firm that does not utilize virtual brands. We find that under privacy environment where the platform does not have access to consumer-preference information, it facilitates this information transmission by consistently recommending all brands to all consumers. By contrast, under no privacy where the platform knows consumer types, it uses brands with different leading products to target different consumer segments, which essentially restricts the information-transmission channel. Interestingly, however, the profits of both the platform and the virtual-brand-offering firm increase as a result. Finally, we show banning identical-menu virtual brands can further benefit both the multi-product firm and consumers when the ban pushes the multi-product firm to create multiple virtual brands specializing in distinct products. However, when the ban leads the multi-product firm to keep only one brand with all its products, the ban can hurt consumers and all firm types."
+      },
+      {
+        "title": "Dynamic Personalized Offers while Learning Changing Tastes",
+        "abstract": "Firms selling products to consumers realize that it takes time to learn consumers' preferences (say, by tracking their online behavior). What makes it even more challenging is that consumers' preferences may change over time, depreciating the value of acquired information. How should the firm personalize its offers and change them dynamically to learn as well as adapt to changing tastes? How should consumers behave in light of these dynamic offers? I build a continuous-time bargaining model with one-sided incomplete information where a buyer's binary type is publicly revealed through Brownian motion and the binary type changes via a Poisson process. In equilibrium, firms will start with high prices which will only be accepted by high-type consumers with positive probability and as belief drifts below a certain threshold, the firm will offer the lowest price that will be accepted by both types immediately. Changing tastes have two effects: a level effect that leaves low value consumers less likely to accept a given offer and a slope effect so that the firm screens high value consumers faster. Hence type change benefits both types of consumers at a cost to the firm. If the firm is restricted to constant prices and can use the acquired information to select consumers, it is better off than under dynamic prices. The continuation bargaining process gets resolved slower under fixed prices than under flexible prices, which makes consumers more willing to accept a given offer quicker."
+      },
+      {
+        "title": "Targeted Media Bias and Voting",
+        "abstract": "This paper investigates the effect of a tailored news report and its targeted release by an ideologically biased firm. Targeted media strategies include selective information disclosure and audience targeting, with audience targeting being a novel method of distorting information to voters. When the media firm cannot commit to either strategy, targeted media provides are less biased than traditional media. With full commitment in both strategies, however, targeted media do not necessarily generate more bias because selective audience targeting may be more effective in channeling the bias."
+      }
+    ]
+  }
+]

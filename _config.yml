@@ -1,5 +1,11 @@
 title: "Ruizhi Zhu"
-description: "Ruizhi Zhu's academic website"
+description: "Ruizhi Zhu at USTC’s School of Management. Research on privacy, platforms, artificial intelligence, and marketing."
 author: "Ruizhi Zhu"
 baseurl: "" # Leave empty for root
 url: "https://rzhz.github.io/rzz"
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - CV_Ruizhi_Zhu.pdf

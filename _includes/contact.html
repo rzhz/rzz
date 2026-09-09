@@ -1,6 +1,7 @@
-<section id="contact">
-    <h2>Contact</h2>
-    <p>Email: ru[dot]zhu[at]northeastern[dot]edu</p>
-    <p>Office: Hayden Hall, 202</p>
-    <p>Address: Northeastern University, Marketing Department, 360 Huntington Avenue, Boston, MA 02115, USA</p>
+<section id="contact" class="section-grid" aria-labelledby="contact-heading">
+    <div class="section-heading"><h2 id="contact-heading">Contact</h2></div>
+    <div class="section-body contact-grid">
+        <div><h3 class="eyebrow">Email</h3><a class="email-link" href="mailto:{{ site.data.profile.email }}">{{ site.data.profile.email | replace: '.', '[dot]' | replace: '@', '[at]' }}</a>{% if site.data.profile.office != empty %}<h3 class="eyebrow office-label">Office</h3><p>{{ site.data.profile.office }}</p>{% endif %}</div>
+        <div><h3 class="eyebrow">Mailing address</h3><address>{% for line in site.data.profile.address %}{{ line }}{% unless forloop.last %}<br>{% endunless %}{% endfor %}</address></div>
+    </div>
 </section>
