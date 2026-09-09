@@ -1,0 +1,55 @@
+{
+  "name": "Ruizhi Zhu",
+  "role": "Faculty of Business for Science & Technology",
+  "department": "School of Management",
+  "university": "University of Science and Technology of China",
+  "image": "/assets/img/profile_rz.JPG",
+  "email": "zhu.ruizhi@ustc.edu.cn",
+  "cv": "/CV_Ruizhi_Zhu.pdf",
+  "bio": "I am an Associate Professor (non-tenured) in Marketing at the Faculty of Business for Science & Technology, School of Management, University of Science and Technology of China (USTC). I received my PhD in Economics from the University of Toronto in 2023. Before joining USTC, I was a Postdoctoral Research Associate in the Marketing Department at Northeastern University.",
+  "current_research": "I study how information, privacy, and artificial intelligence shape markets, organizations, and consumer welfare. My research combines economic theory and empirical analysis to examine advertising and platform design, product variety and market structure, and the effects of AI and employee turnover on marketing employment and brand performance. I also study how AI-assisted decision systems can preserve incentives for human judgment.",
+  "interests": [
+    "Privacy & information",
+    "Platforms and mechanism design",
+    "AI & human decision making",
+    "Marketing & employment"
+  ],
+  "office": "",
+  "address": [
+    "Faculty of Business for Science & Technology",
+    "School of Management",
+    "University of Science and Technology of China",
+    "96 Jinzhai Road",
+    "Hefei, China"
+  ],
+  "links": [
+    {
+      "label": "Google Scholar",
+      "url": "https://scholar.google.com/citations?user=07D63aYAAAAJ&hl=en"
+    },
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/ruizhi-zhu"
+    },
+    {
+      "label": "GitHub",
+      "url": "https://github.com/rzhz"
+    }
+  ],
+  "location": "Hefei, China",
+  "education": [
+    {
+      "degree": "PhD in Economics",
+      "institution": "University of Toronto",
+      "year": "2023"
+    }
+  ],
+  "experience": [
+    {
+      "role": "Postdoctoral Research Associate",
+      "department": "Marketing Department",
+      "institution": "Northeastern University"
+    }
+  ],
+  "position": "Associate Professor (non-tenured) in Marketing"
+}

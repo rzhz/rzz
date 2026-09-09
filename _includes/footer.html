@@ -1,8 +1,5 @@
-<footer>
-    <div class="social-links">
-        <a href="https://github.com/rzhz">GitHub</a>
-        <a href="https://scholar.google.com/citations?user=07D63aYAAAAJ&hl=en">Google Scholar</a>
-        <a href="https://www.linkedin.com/in/ruizhi-zhu">LinkedIn</a>
-    </div>
-    <p>© 2024 Ruizhi Zhu. All rights reserved.</p>
+<footer class="container footer">
+    <p>© {{ 'now' | date: '%Y' }} {{ site.data.profile.name }}</p>
+    <div class="social-links">{% for link in site.data.profile.links %}<a href="{{ link.url }}">{{ link.label }} <span aria-hidden="true">↗</span></a>{% endfor %}</div>
+    <a href="#home" class="back-top">Back to top ↑</a>
 </footer>

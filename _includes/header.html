@@ -1,14 +1,33 @@
-<header id="home">
-    <div class="profile-container">
-        <img src="assets/img/profile_rz.JPG" alt="Profile Picture" class="profile-image">
+{% assign profile = site.data.profile %}
+<header class="hero container" id="home">
+    <div class="profile-panel">
+        <img class="profile-avatar" src="{{ profile.image | relative_url }}" alt="Portrait of {{ profile.name }}" width="2333" height="2359" fetchpriority="high">
+        <h1>{{ profile.name }}</h1>
+        <p class="profile-position">{{ profile.position }}</p>
+        <p class="profile-affiliation">{{ profile.role }}<br>{{ profile.department }}</p>
+        <p class="profile-university">{{ profile.university }}</p>
+        <p class="profile-location">{{ profile.location }}</p>
+        <div class="profile-links">
+            <a class="button" href="mailto:{{ profile.email }}">Email <span aria-hidden="true">↗</span></a>
+            <a href="{{ profile.links.first.url }}">Google Scholar <span aria-hidden="true">↗</span></a>
+        </div>
     </div>
-    <div class="container">
-        <h1>Ruizhi Zhu</h1>
-        <p>Postdoctoral Research Associate • Marketing Department • Northeastern University</p>
-        <p>I'm a Postdoctoral Research Associate at Northeastern University. My research interest lies in information
-           transmission and privacy, platform economy, digital marketing and marketing strategy. My current 
-           research examines how the creation of virtual brands by the firm and the selective recommendation by the 
-           platform interact with each other under different privacy environment and the welfare consequences on consumers, 
-           the firm and the platform.</p>
+    <div class="hero-copy">
+
+        <div class="biography">
+            <p>{{ profile.bio }}</p>
+            <p>{{ profile.current_research }}</p>
+        </div>
+        <div class="background-grid">
+            <section aria-labelledby="education-heading">
+                <h3 id="education-heading">Education</h3>
+                {% for item in profile.education %}<div class="background-item"><p class="background-title">{{ item.degree }}</p><p>{{ item.institution }}</p><span>{{ item.year }}</span></div>{% endfor %}
+            </section>
+            <section aria-labelledby="experience-heading">
+                <h3 id="experience-heading">Previous appointment</h3>
+                {% for item in profile.experience %}<div class="background-item"><p class="background-title">{{ item.role }}</p><p>{{ item.department }}</p><p>{{ item.institution }}</p></div>{% endfor %}
+            </section>
+        </div>
+        <div class="interest-panel"><h3>Research interests</h3><ul>{% for interest in profile.interests %}<li>{{ interest }}</li>{% endfor %}</ul></div>
     </div>
 </header>
