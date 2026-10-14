@@ -178,3 +178,5 @@ h1 { font-family: var(--serif); font-size: clamp(48px, 5.5vw, 70px); font-weight
 
 .profile-position { font-size: 15px; color: var(--accent); line-height: 1.6; margin-bottom: 16px; }
 .hero-copy > .biography:first-child { margin-top: 0; }
+
+.background-item + .background-item { margin-top: 18px; }

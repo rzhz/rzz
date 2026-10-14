@@ -42,6 +42,16 @@
       "degree": "PhD in Economics",
       "institution": "University of Toronto",
       "year": "2023"
+    },
+    {
+      "degree": "MA in Economics",
+      "institution": "University of British Columbia",
+      "year": "2015"
+    },
+    {
+      "degree": "Bachelor of Economics and Finance",
+      "institution": "University of Hong Kong",
+      "year": "2014"
     }
   ],
   "experience": [
@@ -49,6 +59,11 @@
       "role": "Postdoctoral Research Associate",
       "department": "Marketing Department",
       "institution": "Northeastern University"
+    },
+    {
+      "role": "Research Member",
+      "institution": "Simons Laufer Mathematical Sciences Institute",
+      "year": "2023"
     }
   ],
   "position": "Associate Professor (non-tenured) in Marketing"
