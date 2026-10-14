@@ -19,8 +19,8 @@
     "id": "working-papers",
     "papers": [
       {
-        "title": "The Effect of AI on Marketing Employment: Evidence from 110m+ Online Employment Records",
-        "authors": "with Samsun Knight, Anatoli Colicev and Yakov Bart",
+        "title": "Marketing Employment after Generative AI: Evidence from 110M+ Employment Records",
+        "authors": "with Yakov Bart, Anatoli Colicev and Samsun Knight",
         "url": "https://ssrn.com/abstract=6653422",
         "link_label": "SSRN",
         "abstract": "Marketing is widely considered one of the job functions most exposed to generative AI, but large-scale evidence on marketing-specific employment effects remains limited. We study how the public release of ChatGPT in November 2022 affected marketing employment using a panel of over 110 million employment records from Revelio Labs covering 164,780 firms. Comparing marketing to non-marketing employees within the same firm in a difference-in-differences design, we find that the post-ChatGPT change in average marketing headcount is 0.92% lower than the corresponding change for non-marketing headcount. We demonstrate that this relative decline is strongest among both junior and senior employees, while mid-level marketing employees are least affected relative to same-seniority non-marketing peers; and that within fields, the contraction is concentrated in non-digital marketing and customer-service marketing employees in particular, while sales employment has enjoyed a modest relative increase, consistent with task-specific adjustment rather than broad commercial retrenchment. Lastly, we show in triple-differences analyses that the relative decline in marketing headcount is significantly larger in firms and industries with higher pre-period AI exposure."
