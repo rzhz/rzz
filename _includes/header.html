@@ -24,8 +24,8 @@
                 {% for item in profile.education %}<div class="background-item"><p class="background-title">{{ item.degree }}</p><p>{{ item.institution }}</p><span>{{ item.year }}</span></div>{% endfor %}
             </section>
             <section aria-labelledby="experience-heading">
-                <h3 id="experience-heading">Previous appointment</h3>
-                {% for item in profile.experience %}<div class="background-item"><p class="background-title">{{ item.role }}</p><p>{{ item.department }}</p><p>{{ item.institution }}</p></div>{% endfor %}
+                <h3 id="experience-heading">Previous appointments</h3>
+                {% for item in profile.experience %}<div class="background-item"><p class="background-title">{{ item.role }}</p>{% if item.department %}<p>{{ item.department }}</p>{% endif %}<p>{{ item.institution }}</p>{% if item.year %}<span>{{ item.year }}</span>{% endif %}</div>{% endfor %}
             </section>
         </div>
         <div class="interest-panel"><h3>Research interests</h3><ul>{% for interest in profile.interests %}<li>{{ interest }}</li>{% endfor %}</ul></div>
